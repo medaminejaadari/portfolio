@@ -7,8 +7,8 @@ export const siteConfig = {
   location: "Manar 1, Tunis, Tunisia",
   phone: "+216 29 011 185",
   email: "medamine.jaadari@etudiant-enit.utm.tn",
-  linkedin: "https://linkedin.com/in/your-profile", // placeholder — replace
-  github: "https://github.com/your-username", // placeholder — replace
+  linkedin: "https://www.linkedin.com/in/jaadarimed",
+  github: "https://github.com/medaminejaadari",
   url: "https://your-portfolio.vercel.app", // placeholder — replace after deploy
   description:
     "Telecommunications engineering student at ENIT specializing in Data Science and AI — machine learning, reinforcement learning, RAG systems, and large-scale data analysis.",
@@ -139,8 +139,8 @@ export const projects: Project[] = [
       "Integrated a RAG pipeline for natural-language querying of medical reports and automated PDF report generation.",
     ],
     tech: ["Python", "Pandas", "NumPy", "Scikit-learn", "Matplotlib", "RAG"],
-    github: "https://github.com/your-username",
-    live: "https://github.com/your-username",
+    github: "https://github.com/medaminejaadari",
+    live: "https://github.com/medaminejaadari",
     featured: true,
   },
   {
@@ -150,7 +150,7 @@ export const projects: Project[] = [
       "Developed an RL agent (Monte Carlo Control) integrating an epsilon-greedy policy under GLIE constraints to balance exploration and exploitation, with iterative Q-table updates.",
     ],
     tech: ["Python", "Reinforcement Learning", "NumPy"],
-    github: "https://github.com/your-username",
+    github: "https://github.com/medaminejaadari",
   },
   {
     title: "Big Data Analysis with Hadoop",
@@ -159,7 +159,7 @@ export const projects: Project[] = [
       "Research project on the Hadoop ecosystem (MapReduce, Hive) for big data analysis.",
     ],
     tech: ["Hadoop", "MapReduce", "Hive"],
-    github: "https://github.com/your-username",
+    github: "https://github.com/medaminejaadari",
   },
   {
     title: "Facial Recognition System — ENIT",
@@ -168,7 +168,7 @@ export const projects: Project[] = [
       "Developed a real-time facial recognition system integrating Arduino hardware with Python/OpenCV.",
     ],
     tech: ["Python", "OpenCV", "Arduino"],
-    github: "https://github.com/your-username",
+    github: "https://github.com/medaminejaadari",
   },
 ];
 
