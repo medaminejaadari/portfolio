@@ -10,6 +10,9 @@ export const siteConfig = {
   linkedin: "https://www.linkedin.com/in/jaadarimed",
   github: "https://github.com/medaminejaadari",
   url: "https://portfolue-eight.vercel.app",
+  cv: "/CV_Jaadari_Mohamed_Amine.pdf",
+  avatar: "/avatar.webp",
+  photo: "/photo.webp",
   description:
     "Telecommunications engineering student at ENIT specializing in Data Science and AI — machine learning, reinforcement learning, RAG systems, and large-scale data analysis.",
 };

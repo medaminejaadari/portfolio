@@ -74,6 +74,10 @@ export function Navbar() {
                 className="rounded-md px-3 py-2 text-sm font-medium transition-colors hover:text-accent"
                 style={{
                   color: active === item.id ? "var(--heading-accent)" : "var(--muted)",
+                  background:
+                    active === item.id
+                      ? "color-mix(in srgb, var(--heading-accent) 10%, transparent)"
+                      : "transparent",
                 }}
               >
                 {item.label}
@@ -123,6 +127,10 @@ export function Navbar() {
                         active === item.id
                           ? "var(--heading-accent)"
                           : "var(--muted)",
+                      background:
+                        active === item.id
+                          ? "color-mix(in srgb, var(--heading-accent) 10%, transparent)"
+                          : "transparent",
                     }}
                   >
                     {item.label}

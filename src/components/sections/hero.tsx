@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { ArrowDown, FileText, Mail } from "lucide-react";
 import { GithubIcon, LinkedinIcon } from "@/components/social-icons";
@@ -20,7 +21,31 @@ export function Hero() {
       id="home"
       className="relative flex min-h-screen items-center justify-center bg-hero-gradient"
     >
-      <div className="mx-auto w-full max-w-4xl px-4 py-24 text-center sm:px-6">
+      <div
+        className="pointer-events-none absolute inset-0 hero-grid"
+        aria-hidden="true"
+      />
+      <div className="relative mx-auto w-full max-w-4xl px-4 py-24 text-center sm:px-6">
+        <motion.div
+          custom={0}
+          initial="hidden"
+          animate="visible"
+          variants={fadeUp}
+          className="mb-8 flex justify-center"
+        >
+          <span className="rounded-full p-1 shadow-glow" style={{ background: "linear-gradient(135deg, var(--heading-accent), transparent 60%)" }}>
+            <Image
+              src={siteConfig.avatar}
+              alt={`${siteConfig.name} — portrait`}
+              width={120}
+              height={120}
+              priority
+              className="h-24 w-24 rounded-full border-2 object-cover sm:h-28 sm:w-28"
+              style={{ borderColor: "var(--background)" }}
+            />
+          </span>
+        </motion.div>
+
         <motion.p
           custom={0}
           initial="hidden"
@@ -78,7 +103,14 @@ export function Hero() {
           <a href="#contact" className="btn-outline">
             Contact Me
           </a>
-          <a href="#contact" className="btn-outline" aria-label="Download CV">
+          <a
+            href={siteConfig.cv}
+            target="_blank"
+            rel="noopener noreferrer"
+            download
+            className="btn-outline"
+            aria-label="Download CV as PDF"
+          >
             <FileText size={18} />
             Download CV
           </a>
