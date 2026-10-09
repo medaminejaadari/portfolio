@@ -205,6 +205,8 @@ export interface ActivityItem {
   org: string;
   role: string;
   description: string;
+  image?: string;
+  imageAlt?: string;
 }
 
 export const leadership: ActivityItem[] = [
@@ -213,17 +215,23 @@ export const leadership: ActivityItem[] = [
     role: "Member",
     description:
       "Participated in computer science conferences and training sessions.",
+    image: "/ieee.webp",
+    imageAlt: "IEEE chapter activity",
   },
   {
     org: "G2FOSS ENIT",
     role: "Trainee",
     description:
       "Training in algorithmic problem-solving and competition preparation (since Oct. 2024).",
+    image: "/g2foss.webp",
+    imageAlt: "G2FOSS ENIT training activity",
   },
   {
     org: "IEEE SIGHT Chapter (ENIT)",
     role: "Content & IT Team Member",
     description:
       "Created visual content, managed social media, and strengthened the club's digital presence with the IT team.",
+    image: "/ieee.webp",
+    imageAlt: "IEEE SIGHT chapter activity",
   },
 ];
