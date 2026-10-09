@@ -17,6 +17,8 @@ export function Education() {
             period: item.period,
             bullets: item.bullets,
             icon: <GraduationCap size={14} />,
+            logo: item.logo,
+            logoAlt: item.logoAlt,
           }))}
         />
       </ScrollReveal>

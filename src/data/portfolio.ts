@@ -107,6 +107,8 @@ export interface ExperienceItem {
   role: string;
   period: string;
   bullets: string[];
+  logo?: string;
+  logoAlt?: string;
 }
 
 export const experience: ExperienceItem[] = [
@@ -114,6 +116,8 @@ export const experience: ExperienceItem[] = [
     company: "Vermeg for Banking Solutions",
     role: "Software Engineering Intern",
     period: "June 2026 – July 2026",
+    logo: "/vermeg.webp",
+    logoAlt: "Vermeg logo",
     bullets: [
       "Designed and developed a multi-agent system (Python, LangChain) integrating the Llama 3.3-70B LLM (Groq) for automated generation of personalized reports.",
       "Deployed a secure RESTful API for external integration, with automated multichannel distribution (Email, WhatsApp) and CSV database management.",
@@ -180,12 +184,16 @@ export interface EducationItem {
   period: string;
   degree: string;
   bullets: string[];
+  logo?: string;
+  logoAlt?: string;
 }
 
 export const education: EducationItem[] = [
   {
     school: "National Engineering School of Tunis (ENIT)",
     period: "Sep. 2024 – Present",
+    logo: "/enit.webp",
+    logoAlt: "ENIT logo",
     degree: "Telecommunications Engineering (Data Science Specialization)",
     bullets: [
       "Three-year curriculum focused on computer science, telecommunications systems, and software development life cycles.",

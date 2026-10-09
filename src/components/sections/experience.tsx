@@ -17,6 +17,8 @@ export function Experience() {
             period: item.period,
             bullets: item.bullets,
             icon: <Briefcase size={14} />,
+            logo: item.logo,
+            logoAlt: item.logoAlt,
           }))}
         />
       </ScrollReveal>
