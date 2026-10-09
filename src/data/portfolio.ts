@@ -9,7 +9,7 @@ export const siteConfig = {
   email: "medamine.jaadari@etudiant-enit.utm.tn",
   linkedin: "https://www.linkedin.com/in/jaadarimed",
   github: "https://github.com/medaminejaadari",
-  url: "https://your-portfolio.vercel.app", // placeholder — replace after deploy
+  url: "https://portfolue-eight.vercel.app",
   description:
     "Telecommunications engineering student at ENIT specializing in Data Science and AI — machine learning, reinforcement learning, RAG systems, and large-scale data analysis.",
 };
