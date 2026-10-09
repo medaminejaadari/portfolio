@@ -43,7 +43,7 @@ export const skillCategories: SkillCategory[] = [
   {
     name: "Programming Languages",
     icon: "Code2",
-    items: ["C/C++", "Python", "JavaScript", "C#"],
+    items: ["C/C++", "Python", "JavaScript", "HTML", "CSS", "C#"],
   },
   {
     name: "Data Science & Analysis",
@@ -219,7 +219,7 @@ export const leadership: ActivityItem[] = [
     imageAlt: "IEEE CS Chapter activity photo",
   },
   {
-    org: "IEEE SIGHT Chapter (ENIT)",
+    org: "G2FOSS ENIT",
     role: "Content & IT Team Member",
     description:
       "Created visual content, managed social media, and strengthened the club's digital presence with the IT team.",
@@ -227,7 +227,7 @@ export const leadership: ActivityItem[] = [
     imageAlt: "G2FOSS ENIT training activity",
   },
   {
-    org: "G2FOSS ENIT",
+    org: "IEEE SIGHT Chapter (ENIT)",
     role: "Trainee",
     description:
       "Training in algorithmic problem-solving and competition preparation (since Oct. 2024).",
